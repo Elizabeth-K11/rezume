@@ -1,0 +1,240 @@
+.html, body {
+margin: 0;
+padding: 0;
+width: 100%;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+font-family: 'Alumni Sans', sans-serif;
+}
+
+.block{
+width:90%;
+display: flex;
+
+}
+
+.part1{
+display: flex;
+flex-direction: column;
+width: 30%;
+background-color: rgb(194, 194, 194);    
+}
+
+.container{
+width: 80%;
+margin: 0 auto;
+}
+
+.myphoto{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 10%;
+margin-bottom:10% ;
+
+}
+
+.img1{
+width:50%;
+border-radius: 50%;
+padding: 5px 5px 5px 5px;
+border:8px solid rgb(131, 131, 131);
+}
+
+.name{
+line-height:30pt;
+font-size: 60px;
+
+padding-bottom: 10px;
+border-bottom: 2px solid rgb(131, 131, 131);
+}
+
+.job{
+font-size: 40px;
+color:rgb(131, 131, 131);
+padding-top: 10px;
+}
+
+.contacts{
+margin-top:20%;
+display: flex;
+flex-direction: column;
+}
+
+.contact{
+display: flex;
+width: 100%;
+padding-bottom: 10px;
+}
+
+.img{
+width:40px ;
+}
+
+.img2{
+    width:64px ;
+    }
+
+.icon{
+width:20%;
+display: flex;
+
+align-items: center;
+}
+
+.text{
+width: 80%;
+font-size: 25px;
+}
+
+.languages{
+margin-top:20%;
+display: flex;
+flex-direction: column;
+margin-bottom: 5%;
+}
+
+.maintitle{
+display: flex;
+width: 100%;
+padding-bottom: 10px;
+margin-bottom: 2%;
+}
+
+.mainicon{
+width:20%;
+}
+    
+.title{
+width: 80%;
+font-size: 40px;
+display: flex;
+align-items: center;
+}
+.progres{
+display: flex;
+margin-bottom: 2%;
+}
+
+.lang{
+width:40%;
+font-size: 25px;
+}
+
+.prog{
+width: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.progressbar { 
+    width: 80%;
+	height: 10px;
+	position: relative;
+	background: rgb(168, 168, 168);
+	padding: 2px;
+
+}
+
+.progressbar > span {
+    display: block;
+    height: 10px;
+    background-color: rgb(59, 59, 59);
+    background-image: linear-gradient(
+      center bottom,
+      rgb(37, 37, 37) 37%,
+      rgb(20, 20, 20) 69%
+    );
+    position: relative;
+    overflow: hidden;
+  }
+
+.skills{
+display: flex;
+flex-direction: column;
+margin-top:20%;
+}
+
+.skill{
+display: flex;
+width: 100%;
+}
+
+.nameskill{
+font-size: 25px;
+width: 40%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.firstline{
+display: flex;
+margin-bottom: 3%;
+}
+
+.diaskill{
+width: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.part2{
+display: flex;
+flex-direction: column;
+width: 70%;
+margin-top:4%;
+}
+
+.info{
+width: 90%;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+margin-bottom: 5%;
+}
+
+.maintitle2{
+width: 100%;
+display:flex ;
+text-transform: uppercase;
+margin-bottom: 3%;
+}
+
+.img3{
+width:10%;
+}
+
+.title2{
+width: 70%;
+font-size: 40px;
+display: flex;
+align-items: center;
+}
+
+.textabout{
+font-size: 30px;
+}
+
+.ss{
+text-decoration: none;
+color: black;
+}
+
+.effect{
+font-weight: bold;
+padding-left: 1cm;
+}
+
+.footer{
+background-color: rgb(93, 93, 93);
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 25px;
+color: white;
+}
